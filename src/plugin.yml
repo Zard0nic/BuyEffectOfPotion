@@ -1,0 +1,13 @@
+name: BEoP
+main: beop.mainClass
+description: Buy Effect of Potion
+version: 0.1
+author: Zard0nic
+depend: [Vault]
+
+commands:
+   potion:
+      permission-message: У вас нет прав на использование данной команды!
+      permission: beop.potion
+      description: Покупка эффекта зелья.
+      usage:
